@@ -1,4 +1,6 @@
 # AspNetCore Middleware for Tenant Resolution
+https://github.com/smuthiya/aspnetcore-api-multitenancy/workflows/Build/badge.svg
+
 This is nuget package which configures a middleware in AspNetCore request processing pipeline and resolves a request to a tenant and introduce the ability to access information about that tenant
 
 ## How to use
