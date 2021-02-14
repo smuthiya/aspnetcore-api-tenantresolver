@@ -1,7 +1,4 @@
 ﻿using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace AspNetCore.Api.Multitenancy
@@ -12,7 +9,7 @@ namespace AspNetCore.Api.Multitenancy
         private readonly ITenantResolutionStrategy _tenantResolutionStrategy;
         private readonly ITenantStore<T> _tenantStore;
 
-        public TenantRepository(Logger<TenantRepository<T>> logger, ITenantResolutionStrategy tenantResolutionStrategy, ITenantStore<T> tenantStore)
+        public TenantRepository(ILogger<TenantRepository<T>> logger, ITenantResolutionStrategy tenantResolutionStrategy, ITenantStore<T> tenantStore)
         {
             _logger = logger;
             _tenantResolutionStrategy = tenantResolutionStrategy;
