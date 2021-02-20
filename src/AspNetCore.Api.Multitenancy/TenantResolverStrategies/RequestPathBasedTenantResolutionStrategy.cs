@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using System.Threading.Tasks;
 
-namespace AspNetCore.Api.Multitenancy
+namespace AspNetCore.Api.TenantResolver
 {
     public class RequestPathBasedTenantResolutionStrategy : ITenantResolutionStrategy
     {

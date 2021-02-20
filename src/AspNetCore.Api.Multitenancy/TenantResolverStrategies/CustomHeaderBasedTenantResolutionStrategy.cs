@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Linq;
 
-namespace AspNetCore.Api.Multitenancy
+namespace AspNetCore.Api.TenantResolver
 {
     public class CustomHeaderBasedTenantResolutionStrategy : ITenantResolutionStrategy
     {

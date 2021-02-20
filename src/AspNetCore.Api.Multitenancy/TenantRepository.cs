@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 using System.Threading.Tasks;
 
-namespace AspNetCore.Api.Multitenancy
+namespace AspNetCore.Api.TenantResolver
 {
     public class TenantRepository<T> where T : Tenant
     {

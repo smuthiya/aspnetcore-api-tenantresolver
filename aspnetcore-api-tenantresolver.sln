@@ -13,13 +13,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCore.Api.Multitenancy", "src\AspNetCore.Api.Multitenancy\AspNetCore.Api.Multitenancy.csproj", "{F009CEAC-1A55-410B-8AB7-40A40756FD1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCore.Api.TenantResolver", "src\AspNetCore.Api.Multitenancy\AspNetCore.Api.TenantResolver.csproj", "{F009CEAC-1A55-410B-8AB7-40A40756FD1F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{BD3B0A0C-3137-4550-9989-813A02BB1106}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestAPIs", "samples\TestAPIs\TestAPIs.csproj", "{E1A2A27A-48EB-42A3-B937-8F878957D055}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.Api.Multitenancy.Tests", "tests\AspNetCore.Api.Multitenancy.Tests\AspNetCore.Api.Multitenancy.Tests.csproj", "{AEC7DA6F-14D3-4E4A-B3E8-575C6FE5F2B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCore.Api.TenantResolver.Tests", "tests\AspNetCore.Api.Multitenancy.Tests\AspNetCore.Api.TenantResolver.Tests.csproj", "{AEC7DA6F-14D3-4E4A-B3E8-575C6FE5F2B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
