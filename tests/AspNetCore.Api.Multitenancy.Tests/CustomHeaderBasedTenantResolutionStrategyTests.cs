@@ -1,6 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace AspNetCore.Api.Multitenancy.Tests
+namespace AspNetCore.Api.TenantResolver.Tests
 {
     [TestClass]
     public class CustomHeaderBasedTenantResolutionStrategyTests

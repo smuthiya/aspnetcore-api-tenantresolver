@@ -2,7 +2,7 @@
 using System.Linq;
 using System;
 
-namespace AspNetCore.Api.Multitenancy
+namespace AspNetCore.Api.TenantResolver
 {
     public class InMemoryTenantStore : ITenantStore<Tenant>
     {

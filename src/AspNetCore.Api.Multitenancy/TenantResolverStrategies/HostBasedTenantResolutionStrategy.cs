@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AspNetCore.Api.Multitenancy
+namespace AspNetCore.Api.TenantResolver
 {
     public class HostBasedTenantResolutionStrategy : ITenantResolutionStrategy 
     {

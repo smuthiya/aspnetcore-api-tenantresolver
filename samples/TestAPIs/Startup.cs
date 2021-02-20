@@ -10,7 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using AspNetCore.Api.Multitenancy;
+using AspNetCore.Api.TenantResolver;
 
 namespace TestAPIs
 {
