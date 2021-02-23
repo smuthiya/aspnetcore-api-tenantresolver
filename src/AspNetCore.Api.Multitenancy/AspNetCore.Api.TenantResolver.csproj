@@ -2,6 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>AspNetCore.Api.TenantResolver</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Sachin Muthiyan</Authors>
   </PropertyGroup>
 
   <ItemGroup>
@@ -10,5 +13,4 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0" />
   </ItemGroup>
-
 </Project>
