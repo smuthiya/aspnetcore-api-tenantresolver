@@ -5,6 +5,7 @@
     <PackageId>AspNetCore.Api.TenantResolver</PackageId>
     <Version>1.0.0</Version>
     <Authors>Sachin Muthiyan</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
