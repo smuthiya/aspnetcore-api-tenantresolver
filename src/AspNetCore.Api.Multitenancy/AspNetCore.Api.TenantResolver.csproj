@@ -5,6 +5,9 @@
     <PackageId>AspNetCore.Api.TenantResolver</PackageId>
     <Version>1.0.0</Version>
     <Authors>Sachin Muthiyan</Authors>
+    <Description>
+      This is a ASP.NET Core 3.1+ middleware for the resolving tenant based on various tenant resolution strategies
+    </Description>
   </PropertyGroup>
 
   <ItemGroup>
